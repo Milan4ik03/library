@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Регистрация на сайте</h1>
+    </header>
+
+    <!-- Форма регистрации -->
+    <section class="registration-form">
+        <div class="form-container">
+            <h2>Создайте аккаунт</h2>
+
+            <!-- Кнопки для соцсетей -->
+            <div class="social-buttons">
+                <button class="google-btn">Регистрация через Google</button>
+                <button class="facebook-btn">Регистрация через Facebook</button>
+                <button class="twitter-btn">Регистрация через Twitter</button>
+            </div>
+
+            <p class="divider">или</p>
+
+            <!-- Форма с email и номером телефона -->
+            <form id="registrationForm">
+                <div class="input-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com">
+                </div>
+                <div class="input-group">
+                    <label for="phone">Номер телефона</label>
+                    <input type="tel" id="phone" name="phone" required placeholder="+7 (XXX) XXX-XX-XX">
+                </div>
+                <div class="input-group">
+                    <label for="password">Пароль</label>
+                    <input type="password" id="password" name="password" required placeholder="Введите пароль">
+                </div>
+                <button type="submit">Зарегистрироваться</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Магазин подписки -->
+    <section id="store">
+        <h2>Подписка на эксклюзивный контент</h2>
+        <p>Получите доступ к уникальным видеоурокам, статьям и многому другому!</p>
+        <button id="subscribe-button">Подписаться за 10$ </button>
+    </section>
+
+    <!-- Система рейтинга -->
+    <section class="content">
+        <h3>Лучший контент месяца</h3>
+        <p>Как создать сайт с нуля</p>
+        <div id="rating">
+            <span>⭐️⭐️⭐️⭐️☆</span> 4/5
+        </div>
+        <button>Проголосовать</button>
+    </section>
+
+    <!-- Поделиться в соц. сетях -->
+    <section class="social-share">
+        <h2>Поделитесь нашим контентом</h2>
+        <button onclick="shareToFacebook()">Поделиться в Facebook</button>
+        <button onclick="shareToTwitter()">Поделиться в Twitter</button>
+    </section>
+
+    <!-- Прогрессбар -->
+    <section id="loading" class="loading">
+        <div class="spinner"></div>
+    </section>
+
+    <!-- Карта с событиями -->
+    <section id="map">
+        <h3>Наши события</h3>
+        <div id="<iframe 
+    </section>https://maps.app.goo.gl/qwxrviN9M2uRiMQq8
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <h2>Подтверждение действия</h2>
+            <p>Вы уверены, что хотите выйти?</p>
+            <button onclick="confirmExit()">Да</button>
+            <button onclick="closeModal()">Отмена</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>45, Medicity, Islampur Colony, Sector 38, Gurugram, Haryana 122001, India
+    NEAR Bharat Petrol Pump
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демосайт с книгами</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <!-- Шапка -->
+    <header>
+        <!DOCTYPE html>
+        <html lang="ru">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Каталог Книг</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+        
+            <!-- Шапка -->
+            <header>
+                <h1>Каталог книг</h1>
+            </header>
+        
+            <!-- Категории книг -->
+            <section id="books">
+                <h2>Наши книги</h2>
+        
+                <!-- Бесплатные книги -->
+                <div id="free-books" class="book-category">
+                    <h3>Бесплатные книги</h3>
+                    <div class="book">
+                        <img src="https://cdn.eksmo.ru/v2/ITD000000000839125/COVER/cover1__w220.jpg?p404=4" alt="Book Cover">
+                        <h4>Книга 1</h4>
+                        <p>Описание книги 1. Отличная книга для начинающих.</p>
+                        <button class="free-btn">Скачать бесплатно</button>
+                    </div>
+                    <div class="book">
+                        <img src="https://kokoc.com/upload/blog/378/1.png" alt="Book Cover">
+                        <h4>Книга 2</h4>
+                        <p>Описание книги 2. Полезные советы по программированию.</p>
+                        <button class="free-btn">Скачать бесплатно</button>
+                    </div>
+                </div>
+        
+                <!-- Платные книги -->
+                <div id="paid-books" class="book-category">
+                    <h3>Платные книги</h3>
+                    <div class="book">
+                        <img src="https://marketplace.canva.com/EADzX3-_oak/1/0/501w/canva-%D1%87%D0%B5%D1%80%D0%BD%D1%8B%D0%B9-%D0%B8-%D0%B6%D0%B5%D0%BB%D1%82%D1%8B%D0%B9-%D0%B3%D0%B5%D0%BD%D0%B8%D0%B9-%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D0%B8%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%8F-%D0%BE%D0%B1%D0%BB%D0%BE%D0%B6%D0%BA%D0%B0-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-wFu6IrNnCig.jpg" alt="Book Cover">
+                        <h4>Книга 3</h4>
+                        <p>Описание книги 3. Узнайте, как стать профессионалом в дизайне.</p>
+                        <span class="price">$15.00</span>
+                        <button class="buy-btn" onclick="openPaymentModal('0x624DB1b9E2f4d96fE89c65133337DEb8166bCAf1', '15.00')" >Купить</button>
+                    </div>
+                    <div class="book">
+                        <img src="https://gb.ru/blog/wp-content/uploads/2023/08/104-1.jpg.webp" alt="Book Cover">
+                        <h4>Книга 4</h4>
+                        <p>Описание книги 4. Углубленные темы по машинному обучению.</p>
+                        <span class="price">$20.00</span>
+                        <button class="buy-btn" onclick="openPaymentModal('0x624DB1b9E2f4d96fE89c65133337DEb8166bCAf1', '20.00')" >Купить</button>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- Модальное окно для оплаты -->
+            <div id="payment-modal" class="payment-modal">
+                <div class="modal-content">
+                    <h3>Оплата за книгу</h3>
+                    <p>Для завершения покупки, отправьте сумму на следующий адрес:</p>
+                    <p><strong>Адрес кошелька: <span id="wallet-address">0x624DB1b9E2f4d96fE89c65133337DEb8166bCAf1</span></strong></p>
+                    <p>Пожалуйста, введите сумму (в эфирах): <span id="amount"></span> ETH</p>
+                    <button onclick="closePaymentModal()">Закрыть</button>
+                    <p class="instructions">После завершения транзакции, пожалуйста, отправьте чек на ваш электронный адрес.</p>
+                </div>
+            </div>
+            <script src="scripts.js"></script>
+        </body>
+        </html>
+        <!-- Кнопка для оплаты через PayPal -->
+<div id="payment-container">
+    <h2>Оплатите за книгу</h2>
+    <button id="paypal-button-container">Оплатить через PayPal</button>
+</div>
+
+<!-- Модальное окно для отображения процесса оплаты -->
+<div id="payment-status-modal" class="payment-status-modal" style="display:none;">
+    <div class="modal-content">
+        <h3>Процесс оплаты</h3>
+        <p>Ожидаем подтверждения...</p>
+        <button onclick="closePaymentStatusModal()">Закрыть</button>
+    </div>
+</div>
+
+<!-- Подключение скрипта PayPal для отображения кнопки -->
+<script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID"></script>
+<script src="scripts.js"></script>
+<!-- Кнопка для оплаты через Ethereum -->
+<div id="payment-container">
+    <h2>Оплата через Ethereum</h2>
+    <button id="ethereum-payment-button" onclick="startEthereumPayment()">Оплатить через Ethereum</button>
+</div>
+
+<!-- Модальное окно для отображения процесса оплаты -->
+<div id="payment-status-modal" class="payment-status-modal" style="display:none;">
+    <div class="modal-content">
+        <h3>Процесс оплаты</h3>
+        <p>Ожидаем подтверждения...</p>
+        <button onclick="closePaymentStatusModal()">Закрыть</button>
+    </div>
+</div>
